@@ -704,5 +704,18 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "cmrc_32k": {
+    "file_name": "cmrc_32k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversation"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
   }
 }
